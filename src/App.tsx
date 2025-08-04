@@ -34,11 +34,11 @@ function App() {
       contractCode: "7059707855", // Replace with test contract
       paymentDescription: "Test payment",
       isTestMode: true,
-      onComplete: function (response) {
+      onComplete: function (response: any) {
         console.log("✅ onComplete fired:", response);
         alert("Payment completed!");
       },
-      onClose: function (data) {
+      onClose: function (data: any) {
         console.log("❌ onClose fired:", data);
         alert("Payment window closed");
       },
