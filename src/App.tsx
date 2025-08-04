@@ -1,5 +1,11 @@
 import { useEffect } from "react";
 
+declare global {
+  interface Window {
+    MonnifySDK?: any;
+  }
+}
+
 function App() {
   useEffect(() => {
     const script = document.createElement("script");
