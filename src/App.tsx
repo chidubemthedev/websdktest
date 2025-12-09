@@ -25,13 +25,13 @@ function App() {
     }
 
     window.MonnifySDK.initialize({
-      amount: 200,
+      amount: 2000,
       currency: "NGN",
       reference: `ref-${Date.now()}`,
       customerName: "Test User",
       customerEmail: "test@example.com",
-      apiKey: "MK_PROD_V5EJMMX2FM", // Replace with test key
-      contractCode: "100693167467", // Replace with test contract
+      apiKey: "MK_TEST_JRQAZRFD2W", // Replace with test key
+      contractCode: "7059707855", // Replace with test contract
       paymentDescription: "Test payment",
       isTestMode: true,
       onComplete: function (response: any) {
