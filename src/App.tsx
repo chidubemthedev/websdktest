@@ -25,7 +25,7 @@ function App() {
     }
 
     window.MonnifySDK.initialize({
-      amount: 1000,
+      amount: 200,
       currency: "NGN",
       reference: `ref-${Date.now()}`,
       customerName: "Test User",
