@@ -30,7 +30,7 @@ function App() {
       reference: `ref-${Date.now()}`,
       customerName: "Test User",
       customerEmail: "test@example.com",
-      apiKey: "MK_TEST_JRQAZRFD2W", // Replace with test key
+      apiKey: "MK_TEST_EKRPJY638A", // Replace with test key
       contractCode: "7059707855", // Replace with test contract
       paymentDescription: "Test payment",
       isTestMode: true,
